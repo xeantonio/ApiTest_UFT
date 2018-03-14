@@ -1,0 +1,51 @@
+2018-03-14 15:53:16,697 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-03-14 15:53:16,702 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-03-14 15:53:16,702 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-03-14 15:53:16,703 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-03-14 15:53:16,703 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-03-14 15:53:16,704 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-03-14 15:53:17,430 [16] INFO  - Paso 'Inicio': Paso 'Inicio' iniciado
+2018-03-14 15:53:17,482 [16] INFO  - El paso 'Inicio' finalizó correctamente
+2018-03-14 15:53:17,484 [16] INFO  - Paso 'Flujo de Prueba': Paso 'Flujo de Prueba' iniciado
+2018-03-14 15:53:17,485 [16] INFO  - Paso 'Iteración 1': Paso 'Iteración 1' iniciado
+2018-03-14 15:53:17,487 [16] INFO  - Paso 'Solicitud HTTP4': Paso 'Solicitud HTTP4' iniciado
+2018-03-14 15:53:17,514 [16] INFO  - Paso 'Solicitud HTTP4': Extraer URL HTTP: 'https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor12:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e'
+2018-03-14 15:53:18,048 [16] INFO  - Paso 'Solicitud HTTP4': El servidor devolvió el código de estado: 200
+2018-03-14 15:53:18,050 [16] INFO  - Paso 'Solicitud HTTP4': Solicitud HTTP sin procesar:
+2018-03-14 15:53:18,052 [16] INFO  - Paso 'Solicitud HTTP4': GET https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor12:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e 1.1
+Host: api.biblia.com
+Connection: Keep-Alive
+
+2018-03-14 15:53:18,054 [16] INFO  - Paso 'Solicitud HTTP4': Respuesta HTTP sin procesar:
+2018-03-14 15:53:18,057 [16] INFO  - Paso 'Solicitud HTTP4': HTTP/1.1 200 OK
+Content-Length: 1152
+Cache-Control: private, s-maxage=0
+Content-Type: text/html; charset=utf-8
+Date: Wed, 14 Mar 2018 21:53:20 GMT
+Set-Cookie: _culture=; path=/
+
+	<p style="font-weight:bold; font-family:Arial; font-size:10pt; margin-top:12pt;" lang="en-US">
+	
+	</p>
+	<p style="font-size:12pt; margin:0pt;" lang="en-US">
+		Now concerning spiritual <span style="font-style:italic;">gifts</span>, brothers, I do not want you to be ignorant. You know that when you were pagans, you were led astray to the speechless idols, however you were led. Therefore I make known to you that no one speaking by the Spirit of God says, &ldquo;Jesus <span style="font-style:italic;">is</span> accursed,&rdquo; and no one is able to say &ldquo;Jesus <span style="font-style:italic;">is</span> Lord&rdquo; except by the Holy Spirit. 
+	</p>
+	<p style="font-size:12pt; margin:0pt; text-indent:18pt;" lang="en-US">
+		Now there are varieties of gifts, but the same Spirit, and there are varieties of ministries, and the same Lord, and there are varieties of activities, but the same God, who works all <span style="font-style:italic;">things</span> in all <span style="font-style:italic;">people</span>. But to each one is given the manifestation of the Spirit for what is beneficial <span style="font-style:italic;">to all</span>.
+	</p>
+2018-03-14 15:53:18,070 [16] INFO  - Checkpoint 0: "200" = "200" ha pasado
+2018-03-14 15:53:18,073 [16] ERROR - Checkpoint 1: "
+	<p style="font-weight:bold; font-family:Arial; font-size:10pt; margin-top:12pt;" lang="en-US">
+	
+	</p>
+	<p style="font-size:12pt; margin:0pt;" lang="en-US">
+		Now concerning spiritual <span style="font-style:italic;">gifts</span>, brothers, I do not want you to be ignorant. You know that when you were pagans, you were led astray to the speechless idols, however you were led. Therefore I make known to you that no one speaking by the Spirit of God says, &ldquo;Jesus <span style="font-style:italic;">is</span> accursed,&rdquo; and no one is able to say &ldquo;Jesus <span style="font-style:italic;">is</span> Lord&rdquo; except by the Holy Spirit. 
+	</p>
+	<p style="font-size:12pt; margin:0pt; text-indent:18pt;" lang="en-US">
+		Now there are varieties of gifts, but the same Spirit, and there are varieties of ministries, and the same Lord, and there are varieties of activities, but the same God, who works all <span style="font-style:italic;">things</span> in all <span style="font-style:italic;">people</span>. But to each one is given the manifestation of the Spirit for what is beneficial <span style="font-style:italic;">to all</span>.
+	</p>" Contains "bears all <span style="font-style:italic;">things</span>, believes all <span style="font-style:italic;">things</span>, hopes all <span style="font-style:italic;">things</span>, endures all <span style="font-style:italic;">things</span>." ha fallado
+2018-03-14 15:53:18,081 [16] INFO  - El paso 'Solicitud HTTP4' finalizó correctamente
+2018-03-14 15:53:18,084 [16] INFO  - El paso 'Iteración 1' finalizó correctamente
+2018-03-14 15:53:18,088 [16] INFO  - El paso 'Flujo de Prueba' finalizó correctamente
+2018-03-14 15:53:18,089 [16] INFO  - Paso 'Fin': Paso 'Fin' iniciado
+2018-03-14 15:53:18,116 [16] INFO  - El paso 'Fin' finalizó correctamente
