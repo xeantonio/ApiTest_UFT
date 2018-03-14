@@ -132,7 +132,7 @@
             _flow.HTTPActivity4.TextXmlBody = @"";
             _flow.HTTPActivity4.FileBody = @"";
             _flow.HTTPActivity4.PostBody = @"";
-            _flow.HTTPActivity4.Url = @"https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor12:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e";
+            _flow.HTTPActivity4.Url = @"https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor13:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e";
             _flow.HTTPActivity4.HttpMethod = @"GET";
             _flow.HTTPActivity4.HttpVersion = @"1.1";
             _flow.HTTPActivity4.Comment = @"";
