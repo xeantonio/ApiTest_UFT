@@ -180,7 +180,7 @@
             XmlDocument HTTPActivity4_ExpectedOutputProperties_Document = new XmlDocument();
             HTTPActivity4_ExpectedOutputProperties_Document.PreserveWhitespace = true;
             HTTPActivity4_ExpectedOutputProperties_Document.LoadXml(
-@"<Arguments><ResponseHttpVersion /><StatusCode>20</StatusCode><StatusDescription></StatusDescription><ResponseBody>bears all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;, believes all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;, hopes all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;, endures all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;.</ResponseBody><ResponseBodyAsBase64 /></Arguments>");
+@"<Arguments><ResponseHttpVersion /><StatusCode>200</StatusCode><StatusDescription></StatusDescription><ResponseBody>bears all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;, believes all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;, hopes all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;, endures all &lt;span style=""font-style:italic;""&gt;things&lt;/span&gt;.</ResponseBody><ResponseBodyAsBase64 /></Arguments>");
             _flow.HTTPActivity4.ExpectedOutputProperties = HTTPActivity4_ExpectedOutputProperties_Document;
             set_HTTPActivity4_checkpoints(_flow.HTTPActivity4);
             
