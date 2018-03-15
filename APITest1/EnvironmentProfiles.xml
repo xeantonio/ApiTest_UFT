@@ -26,7 +26,7 @@
     <VarName>IsLoadTest</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>No disponible durante el periodo de diseño</SystemProfile>
+    <SystemProfile>Not Available In Design Time</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>TestDir</VarName>
@@ -44,7 +44,7 @@
     <VarName>LocalHostName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>NB-MX-ISAR-HP</SystemProfile>
+    <SystemProfile>WIN-NTAVK9DCN16</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>OS</VarName>
@@ -56,64 +56,67 @@
     <VarName>OSVersion</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Microsoft Windows NT 10.0.16299.0</SystemProfile>
+    <SystemProfile>Microsoft Windows NT 6.1.7601 Service Pack 1</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>ProductDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Program Files (x86)\HP\Unified Functional Testing\</SystemProfile>
+    <SystemProfile>C:\Program Files (x86)\HPE\Unified Functional Testing\</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>ProductName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>HP Unified Functional Testing</SystemProfile>
+    <SystemProfile>HPE Unified Functional Testing</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>ProductVer</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>12.54</SystemProfile>
+    <SystemProfile>14.1</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>UserName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>NB-MX-ISAR</SystemProfile>
+    <SystemProfile>Administrator</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>14/03/2018 04:20:25 p. m.</SystemProfile>
+    <SystemProfile>15/03/2018 11:15:54 a.m.</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>https://15.128.18.115:8443/qcbin</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>QcUserName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>QcPassword</VarName>
     <IsSystem>true</IsSystem>
     <Description />
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>QcDomain</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>DEFAULT</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>QcProject</VarName>
     <IsSystem>true</IsSystem>
     <Description />
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>CurrentRunID</VarName>

@@ -1,51 +1,51 @@
-2018-03-14 15:53:16,697 [1] INFO  - Loaded appender: FileAppenderExternal
-2018-03-14 15:53:16,702 [1] INFO  - Loaded appender: UserLoggerAppender
-2018-03-14 15:53:16,702 [1] INFO  - Loaded appender: FileAppenderInternal
-2018-03-14 15:53:16,703 [1] INFO  - Loaded appender: FileAppenderExternal
-2018-03-14 15:53:16,703 [1] INFO  - Loaded appender: UserLoggerAppender
-2018-03-14 15:53:16,704 [1] INFO  - Loaded appender: FileAppenderInternal
-2018-03-14 15:53:17,430 [16] INFO  - Paso 'Inicio': Paso 'Inicio' iniciado
-2018-03-14 15:53:17,482 [16] INFO  - El paso 'Inicio' finalizó correctamente
-2018-03-14 15:53:17,484 [16] INFO  - Paso 'Flujo de Prueba': Paso 'Flujo de Prueba' iniciado
-2018-03-14 15:53:17,485 [16] INFO  - Paso 'Iteración 1': Paso 'Iteración 1' iniciado
-2018-03-14 15:53:17,487 [16] INFO  - Paso 'Solicitud HTTP4': Paso 'Solicitud HTTP4' iniciado
-2018-03-14 15:53:17,514 [16] INFO  - Paso 'Solicitud HTTP4': Extraer URL HTTP: 'https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor12:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e'
-2018-03-14 15:53:18,048 [16] INFO  - Paso 'Solicitud HTTP4': El servidor devolvió el código de estado: 200
-2018-03-14 15:53:18,050 [16] INFO  - Paso 'Solicitud HTTP4': Solicitud HTTP sin procesar:
-2018-03-14 15:53:18,052 [16] INFO  - Paso 'Solicitud HTTP4': GET https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor12:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e 1.1
+2018-03-15 11:17:14,457 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-03-15 11:17:14,526 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-03-15 11:17:14,526 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-03-15 11:17:14,527 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-03-15 11:17:14,528 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-03-15 11:17:14,528 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-03-15 11:17:15,650 [17] INFO  - Step 'Inicio' : Step 'Inicio' started
+2018-03-15 11:17:15,796 [17] INFO  - Step 'Inicio' ended successfully
+2018-03-15 11:17:15,798 [17] INFO  - Step 'Flujo de Prueba' : Step 'Flujo de Prueba' started
+2018-03-15 11:17:15,801 [17] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2018-03-15 11:17:15,803 [17] INFO  - Step 'Solicitud HTTP4' : Step 'Solicitud HTTP4' started
+2018-03-15 11:17:15,827 [17] INFO  - Step 'Solicitud HTTP4' : Fetching HTTP Url: 'https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor13:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e'
+2018-03-15 11:17:17,145 [17] INFO  - Step 'Solicitud HTTP4' : Server returned status code: 200
+2018-03-15 11:17:17,149 [17] INFO  - Step 'Solicitud HTTP4' : HTTP Raw request:
+2018-03-15 11:17:17,151 [17] INFO  - Step 'Solicitud HTTP4' : GET https://api.biblia.com/v1/bible/content/LEB.html?passage=1Cor13:1-7&key=fd37d8f28e95d3be8cb4fbc37e15e18e 1.1
 Host: api.biblia.com
 Connection: Keep-Alive
 
-2018-03-14 15:53:18,054 [16] INFO  - Paso 'Solicitud HTTP4': Respuesta HTTP sin procesar:
-2018-03-14 15:53:18,057 [16] INFO  - Paso 'Solicitud HTTP4': HTTP/1.1 200 OK
-Content-Length: 1152
+2018-03-15 11:17:17,154 [17] INFO  - Step 'Solicitud HTTP4' : HTTP Raw response:
+2018-03-15 11:17:17,157 [17] INFO  - Step 'Solicitud HTTP4' : HTTP/1.1 200 OK
+Content-Length: 1614
 Cache-Control: private, s-maxage=0
 Content-Type: text/html; charset=utf-8
-Date: Wed, 14 Mar 2018 21:53:20 GMT
+Date: Thu, 15 Mar 2018 17:17:16 GMT
 Set-Cookie: _culture=; path=/
 
 	<p style="font-weight:bold; font-family:Arial; font-size:10pt; margin-top:12pt;" lang="en-US">
 	
 	</p>
 	<p style="font-size:12pt; margin:0pt;" lang="en-US">
-		Now concerning spiritual <span style="font-style:italic;">gifts</span>, brothers, I do not want you to be ignorant. You know that when you were pagans, you were led astray to the speechless idols, however you were led. Therefore I make known to you that no one speaking by the Spirit of God says, &ldquo;Jesus <span style="font-style:italic;">is</span> accursed,&rdquo; and no one is able to say &ldquo;Jesus <span style="font-style:italic;">is</span> Lord&rdquo; except by the Holy Spirit. 
+		If I speak with the tongues of men and of angels, but do not have love, I have become a ringing brass gong or a clashing cymbal. And if I have <span style="font-style:italic;">the gift of</span> prophecy and I know all mysteries and all knowledge, and if I have all faith so that <span style="font-style:italic;">I can</span> remove mountains, but do not have love, I am nothing. And if I parcel out all my possessions, and if I hand over my body in order that I will be burned, but do not have love, it benefits <span style="font-style:italic;">me</span> nothing. 
 	</p>
 	<p style="font-size:12pt; margin:0pt; text-indent:18pt;" lang="en-US">
-		Now there are varieties of gifts, but the same Spirit, and there are varieties of ministries, and the same Lord, and there are varieties of activities, but the same God, who works all <span style="font-style:italic;">things</span> in all <span style="font-style:italic;">people</span>. But to each one is given the manifestation of the Spirit for what is beneficial <span style="font-style:italic;">to all</span>.
+		Love is patient, love is kind, love is not jealous, <span style="font-style:italic;">it</span> does not boast, <span style="font-style:italic;">it</span> does not become conceited, <span style="font-style:italic;">it</span> does not behave dishonorably, <span style="font-style:italic;">it</span> is not selfish, <span style="font-style:italic;">it</span> does not become angry, <span style="font-style:italic;">it</span> does not keep a record of wrongs, <span style="font-style:italic;">it</span> does not rejoice at unrighteousness, but rejoices with the truth, bears all <span style="font-style:italic;">things</span>, believes all <span style="font-style:italic;">things</span>, hopes all <span style="font-style:italic;">things</span>, endures all <span style="font-style:italic;">things</span>.
 	</p>
-2018-03-14 15:53:18,070 [16] INFO  - Checkpoint 0: "200" = "200" ha pasado
-2018-03-14 15:53:18,073 [16] ERROR - Checkpoint 1: "
+2018-03-15 11:17:17,194 [17] INFO  - Checkpoint 0: "200" = "200" passed
+2018-03-15 11:17:17,198 [17] INFO  - Checkpoint 1: "
 	<p style="font-weight:bold; font-family:Arial; font-size:10pt; margin-top:12pt;" lang="en-US">
 	
 	</p>
 	<p style="font-size:12pt; margin:0pt;" lang="en-US">
-		Now concerning spiritual <span style="font-style:italic;">gifts</span>, brothers, I do not want you to be ignorant. You know that when you were pagans, you were led astray to the speechless idols, however you were led. Therefore I make known to you that no one speaking by the Spirit of God says, &ldquo;Jesus <span style="font-style:italic;">is</span> accursed,&rdquo; and no one is able to say &ldquo;Jesus <span style="font-style:italic;">is</span> Lord&rdquo; except by the Holy Spirit. 
+		If I speak with the tongues of men and of angels, but do not have love, I have become a ringing brass gong or a clashing cymbal. And if I have <span style="font-style:italic;">the gift of</span> prophecy and I know all mysteries and all knowledge, and if I have all faith so that <span style="font-style:italic;">I can</span> remove mountains, but do not have love, I am nothing. And if I parcel out all my possessions, and if I hand over my body in order that I will be burned, but do not have love, it benefits <span style="font-style:italic;">me</span> nothing. 
 	</p>
 	<p style="font-size:12pt; margin:0pt; text-indent:18pt;" lang="en-US">
-		Now there are varieties of gifts, but the same Spirit, and there are varieties of ministries, and the same Lord, and there are varieties of activities, but the same God, who works all <span style="font-style:italic;">things</span> in all <span style="font-style:italic;">people</span>. But to each one is given the manifestation of the Spirit for what is beneficial <span style="font-style:italic;">to all</span>.
-	</p>" Contains "bears all <span style="font-style:italic;">things</span>, believes all <span style="font-style:italic;">things</span>, hopes all <span style="font-style:italic;">things</span>, endures all <span style="font-style:italic;">things</span>." ha fallado
-2018-03-14 15:53:18,081 [16] INFO  - El paso 'Solicitud HTTP4' finalizó correctamente
-2018-03-14 15:53:18,084 [16] INFO  - El paso 'Iteración 1' finalizó correctamente
-2018-03-14 15:53:18,088 [16] INFO  - El paso 'Flujo de Prueba' finalizó correctamente
-2018-03-14 15:53:18,089 [16] INFO  - Paso 'Fin': Paso 'Fin' iniciado
-2018-03-14 15:53:18,116 [16] INFO  - El paso 'Fin' finalizó correctamente
+		Love is patient, love is kind, love is not jealous, <span style="font-style:italic;">it</span> does not boast, <span style="font-style:italic;">it</span> does not become conceited, <span style="font-style:italic;">it</span> does not behave dishonorably, <span style="font-style:italic;">it</span> is not selfish, <span style="font-style:italic;">it</span> does not become angry, <span style="font-style:italic;">it</span> does not keep a record of wrongs, <span style="font-style:italic;">it</span> does not rejoice at unrighteousness, but rejoices with the truth, bears all <span style="font-style:italic;">things</span>, believes all <span style="font-style:italic;">things</span>, hopes all <span style="font-style:italic;">things</span>, endures all <span style="font-style:italic;">things</span>.
+	</p>" Contains "bears all <span style="font-style:italic;">things</span>, believes all <span style="font-style:italic;">things</span>, hopes all <span style="font-style:italic;">things</span>, endures all <span style="font-style:italic;">things</span>." passed
+2018-03-15 11:17:17,213 [17] INFO  - Step 'Solicitud HTTP4' ended successfully
+2018-03-15 11:17:17,217 [17] INFO  - Step 'Iteration 1' ended successfully
+2018-03-15 11:17:17,221 [17] INFO  - Step 'Flujo de Prueba' ended successfully
+2018-03-15 11:17:17,223 [17] INFO  - Step 'Fin' : Step 'Fin' started
+2018-03-15 11:17:17,254 [17] INFO  - Step 'Fin' ended successfully

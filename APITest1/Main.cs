@@ -113,7 +113,7 @@
             _flow.StartActivity1.JMS.UserTimeout = @"20";
             _flow.StartActivity1.JMS.GenerateAutoSelector = @"No";
             this.Activities.Add (_flow.StartActivity1);
-            _flow.Loop2.ConditionAsString = @"Ejecutar 1 iteración";
+            _flow.Loop2.ConditionAsString = @"Run for 1 iteration";
             _flow.Loop2.NumberOfIterations = (int)1;
             _flow.Loop2.Comment = @"";
             _flow.Loop2.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_loop.png";
@@ -126,7 +126,7 @@
             this.Activities.Add (_flow.EndActivity3);
             _flow.Sequence6.Comment = @"";
             _flow.Sequence6.IconPath = @"";
-            _flow.Sequence6.Name = @"Secuencia6";
+            _flow.Sequence6.Name = @"Sequence6";
             _flow.Sequence6.Activities.Add (_flow.HTTPActivity4);
             _flow.HTTPActivity4.TextBody = @"";
             _flow.HTTPActivity4.TextXmlBody = @"";
